@@ -42,23 +42,28 @@ Ansible
 Ответ:
 ![image](https://user-images.githubusercontent.com/109209673/201516848-ff30f8c9-7ca3-4162-b557-8b0e725e9e1c.png)
 
->┌──(root㉿kali)-[~]
+>┌──(root㉿kali)-[~] 
+
 └─# vbox-img --version
 6.1.38_Debianr153438
                                                                              
 >>┌──(root㉿kali)-[~]
+
 └─# vagrant -v        
 Vagrant 2.2.19
                                                                              
 >>>┌──(root㉿kali)-[~]
+ 
 └─# ansible --version          
 ansible [core 2.13.4]
  config file = None
+ 
  configured module search path = ['/root/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
- ansible python module location = /usr/lib/python3/dist-packages/ansible
- ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections
- executable location = /usr/bin/ansible
- python version = 3.10.8 (main, Nov  4 2022, 09:21:25) [GCC 12.2.0]
- jinja version = 3.0.3
- libyaml = True
+ 
+ ansible python module location = /usr/lib/python3/dist-packages/ansible 
+ ansible collection location = /root/.ansible/collections:/usr/share/ansible/collections 
+ executable location = /usr/bin/ansible 
+ python version = 3.10.8 (main, Nov  4 2022, 09:21:25) [GCC 12.2.0] 
+ jinja version = 3.0.3 
+ libyaml = True 
 
